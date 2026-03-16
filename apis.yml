@@ -1,73 +1,61 @@
-name: TypeScript API
+aid: typescript
+name: TypeScript
 description: A strongly typed programming language that builds on JavaScript
 image: https://www.typescriptlang.org/favicon-32x32.png
-url: https://www.typescriptlang.org
-created: '2024'
-modified: '2024'
-specificationVersion: '0.18'
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/typescript/refs/heads/main/apis.yml
+created: '2024-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 tags:
-- Programming Language
-- JavaScript
-- Static Typing
-- Web Development
+  - Programming Language
+  - JavaScript
+  - Static Typing
+  - Web Development
+type: Index
 apis:
-- name: TypeScript Compiler API
-  description: Programmatic access to the TypeScript compiler
-  image: https://www.typescriptlang.org/favicon-32x32.png
-  humanURL: https://www.typescriptlang.org/docs/handbook/compiler-options.html
-  baseURL: https://www.typescriptlang.org
-  tags:
-  - Compiler
-  - Type Checking
-  - Transpilation
-  properties:
-  - type: Documentation
-    url: https://github.com/microsoft/TypeScript/wiki/Using-the-Compiler-API
-  - type: GitHub
-    url: https://github.com/microsoft/TypeScript
-  - type: npm Package
-    url: https://www.npmjs.com/package/typescript
-  contact:
-  - FN: Microsoft TypeScript Team
-    email: typescript@microsoft.com
-    url: https://github.com/microsoft/TypeScript/issues
-- name: TypeScript Language Service API
-  description: API for editor integration and language tooling
-  image: https://www.typescriptlang.org/favicon-32x32.png
-  humanURL: https://www.typescriptlang.org
-  baseURL: https://www.typescriptlang.org
-  tags:
-  - IDE
-  - Language Service
-  - Autocomplete
-  - Refactoring
-  properties:
-  - type: Documentation
-    url: https://github.com/microsoft/TypeScript/wiki/Using-the-Language-Service-API
-  - type: GitHub
-    url: https://github.com/microsoft/TypeScript
-  - type: Examples
-    url: https://github.com/microsoft/TypeScript/wiki/Language-Service-API-Example
+  - aid: typescript:typescript-compiler-api
+    name: TypeScript Compiler API
+    description: Programmatic access to the TypeScript compiler
+    image: https://www.typescriptlang.org/favicon-32x32.png
+    humanURL: https://www.typescriptlang.org/docs/handbook/compiler-options.html
+    baseURL: https://www.typescriptlang.org
+    tags:
+      - Compiler
+      - Type Checking
+      - Transpilation
+    properties:
+      - type: Documentation
+        url: https://github.com/microsoft/TypeScript/wiki/Using-the-Compiler-API
+      - type: GitHub Organization
+        url: https://github.com/microsoft/TypeScript
+  - aid: typescript:typescript-language-service-api
+    name: TypeScript Language Service API
+    description: API for editor integration and language tooling
+    image: https://www.typescriptlang.org/favicon-32x32.png
+    humanURL: https://www.typescriptlang.org
+    baseURL: https://www.typescriptlang.org
+    tags:
+      - IDE
+      - Language Service
+      - Autocomplete
+      - Refactoring
+    properties:
+      - type: Documentation
+        url: https://github.com/microsoft/TypeScript/wiki/Using-the-Language-Service-API
+      - type: GitHub Organization
+        url: https://github.com/microsoft/TypeScript
 maintainers:
-- FN: Microsoft TypeScript Team
-  email: typescript@microsoft.com
-  url: https://github.com/microsoft/TypeScript
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 common:
-- type: Website
-  url: https://www.typescriptlang.org
-- type: Documentation
-  url: https://www.typescriptlang.org/docs/
-- type: Handbook
-  url: https://www.typescriptlang.org/docs/handbook/intro.html
-- type: GitHub Repository
-  url: https://github.com/microsoft/TypeScript
-- type: npm Package
-  url: https://www.npmjs.com/package/typescript
-- type: Playground
-  url: https://www.typescriptlang.org/play
-- type: Release Notes
-  url: https://www.typescriptlang.org/docs/handbook/release-notes/overview.html
-- type: Community
-  url: https://www.typescriptlang.org/community
-- type: Blog
-  url: https://devblogs.microsoft.com/typescript/
+  - type: Website
+    url: https://www.typescriptlang.org
+  - type: Documentation
+    url: https://www.typescriptlang.org/docs/
+  - type: GitHub Organization
+    url: https://github.com/microsoft/TypeScript
+  - type: Blog
+    url: https://devblogs.microsoft.com/typescript/
+  - type: Community
+    url: https://www.typescriptlang.org/community
