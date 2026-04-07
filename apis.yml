@@ -1,6 +1,7 @@
 aid: typescript
 name: TypeScript
-description: A strongly typed programming language that builds on JavaScript
+description: >-
+  A strongly typed programming language that builds on JavaScript.
 image: https://www.typescriptlang.org/favicon-32x32.png
 url: >-
   https://raw.githubusercontent.com/api-evangelist/typescript/refs/heads/main/apis.yml
@@ -16,7 +17,8 @@ type: Index
 apis:
   - aid: typescript:typescript-compiler-api
     name: TypeScript Compiler API
-    description: Programmatic access to the TypeScript compiler
+    description: >-
+      Programmatic access to the TypeScript compiler.
     image: https://www.typescriptlang.org/favicon-32x32.png
     humanURL: https://www.typescriptlang.org/docs/handbook/compiler-options.html
     baseURL: https://www.typescriptlang.org
@@ -31,7 +33,8 @@ apis:
         url: https://github.com/microsoft/TypeScript
   - aid: typescript:typescript-language-service-api
     name: TypeScript Language Service API
-    description: API for editor integration and language tooling
+    description: >-
+      API for editor integration and language tooling.
     image: https://www.typescriptlang.org/favicon-32x32.png
     humanURL: https://www.typescriptlang.org
     baseURL: https://www.typescriptlang.org
@@ -42,7 +45,8 @@ apis:
       - Refactoring
     properties:
       - type: Documentation
-        url: https://github.com/microsoft/TypeScript/wiki/Using-the-Language-Service-API
+        url: 
+          https://github.com/microsoft/TypeScript/wiki/Using-the-Language-Service-API
       - type: GitHub Organization
         url: https://github.com/microsoft/TypeScript
 maintainers:
