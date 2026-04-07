@@ -9,8 +9,8 @@ created: '2024-01-01'
 modified: '2026-03-16'
 specificationVersion: '0.19'
 tags:
-  - Programming Language
   - JavaScript
+  - Programming Language
   - Static Typing
   - Web Development
 type: Index
@@ -24,8 +24,8 @@ apis:
     baseURL: https://www.typescriptlang.org
     tags:
       - Compiler
-      - Type Checking
       - Transpilation
+      - Type Checking
     properties:
       - type: Documentation
         url: https://github.com/microsoft/TypeScript/wiki/Using-the-Compiler-API
@@ -39,14 +39,13 @@ apis:
     humanURL: https://www.typescriptlang.org
     baseURL: https://www.typescriptlang.org
     tags:
+      - Autocomplete
       - IDE
       - Language Service
-      - Autocomplete
       - Refactoring
     properties:
       - type: Documentation
-        url: 
-          https://github.com/microsoft/TypeScript/wiki/Using-the-Language-Service-API
+        url: https://github.com/microsoft/TypeScript/wiki/Using-the-Language-Service-API
       - type: GitHub Organization
         url: https://github.com/microsoft/TypeScript
 maintainers:
