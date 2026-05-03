@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.typescriptlang.org/schemas/diagnostic",
+  "title": "TypeScript Diagnostic",
+  "description": "A compiler diagnostic message (error, warning, or suggestion) produced by the TypeScript Compiler API",
+  "type": "object",
+  "required": ["messageText", "category", "code"],
+  "properties": {
+    "file": {
+      "type": "object",
+      "description": "The source file in which the diagnostic occurred",
+      "properties": {
+        "fileName": {
+          "type": "string",
+          "description": "Path to the source file"
+        }
+      }
+    },
+    "start": {
+      "type": "integer",
+      "description": "Character offset in the source file where the diagnostic starts"
+    },
+    "length": {
+      "type": "integer",
+      "description": "Length of the diagnostic span in characters"
+    },
+    "messageText": {
+      "oneOf": [
+        {"type": "string"},
+        {
+          "type": "object",
+          "description": "Chained diagnostic message",
+          "properties": {
+            "messageText": {"type": "string"},
+            "category": {"type": "integer"},
+            "code": {"type": "integer"},
+            "next": {"type": "array"}
+          }
+        }
+      ],
+      "description": "The diagnostic message text"
+    },
+    "category": {
+      "type": "integer",
+      "enum": [0, 1, 2, 3],
+      "description": "0=Warning, 1=Error, 2=Suggestion, 3=Message"
+    },
+    "code": {
+      "type": "integer",
+      "description": "Numeric TypeScript error code (e.g., 2345)"
+    },
+    "source": {
+      "type": "string",
+      "description": "Optional source identifier for the diagnostic"
+    }
+  }
+}

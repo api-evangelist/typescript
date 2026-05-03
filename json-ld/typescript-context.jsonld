@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "ts": "https://www.typescriptlang.org/vocab#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "TypeScriptProgram": "ts:TypeScriptProgram",
+    "TypeScriptFile": "ts:TypeScriptFile",
+    "TypeScriptType": "ts:TypeScriptType",
+    "TypeScriptInterface": "ts:TypeScriptInterface",
+    "TypeScriptClass": "ts:TypeScriptClass",
+    "TypeScriptFunction": "ts:TypeScriptFunction",
+    "TypeScriptModule": "ts:TypeScriptModule",
+    "CompilerOptions": "ts:CompilerOptions",
+    "Diagnostic": "ts:Diagnostic",
+    "SourceFile": "ts:SourceFile",
+    "Symbol": "ts:Symbol",
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "version": "schema:version",
+    "url": "schema:url",
+
+    "fileName": {
+      "@id": "ts:fileName",
+      "@type": "xsd:string"
+    },
+    "typeName": {
+      "@id": "ts:typeName",
+      "@type": "xsd:string"
+    },
+    "isExported": {
+      "@id": "ts:isExported",
+      "@type": "xsd:boolean"
+    },
+    "isOptional": {
+      "@id": "ts:isOptional",
+      "@type": "xsd:boolean"
+    },
+    "hasType": {
+      "@id": "ts:hasType",
+      "@type": "@id"
+    },
+    "hasMember": {
+      "@id": "ts:hasMember",
+      "@type": "@id"
+    },
+    "extends": {
+      "@id": "ts:extends",
+      "@type": "@id"
+    },
+    "implements": {
+      "@id": "ts:implements",
+      "@type": "@id"
+    },
+    "compilerTarget": {
+      "@id": "ts:compilerTarget",
+      "@type": "xsd:string"
+    },
+    "strictMode": {
+      "@id": "ts:strictMode",
+      "@type": "xsd:boolean"
+    },
+    "diagnosticMessage": {
+      "@id": "ts:diagnosticMessage",
+      "@type": "xsd:string"
+    },
+    "diagnosticCategory": {
+      "@id": "ts:diagnosticCategory",
+      "@type": "xsd:string"
+    },
+    "lineNumber": {
+      "@id": "ts:lineNumber",
+      "@type": "xsd:integer"
+    }
+  }
+}

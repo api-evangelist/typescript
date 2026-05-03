@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.typescriptlang.org/schemas/compiler-options",
+  "title": "TypeScript Compiler Options",
+  "description": "Configuration options for the TypeScript compiler (tsconfig.json compilerOptions)",
+  "type": "object",
+  "properties": {
+    "target": {
+      "type": "string",
+      "enum": ["ES3", "ES5", "ES6", "ES2015", "ES2016", "ES2017", "ES2018", "ES2019", "ES2020", "ES2021", "ES2022", "ES2023", "ESNext"],
+      "description": "ECMAScript target version for emitted JavaScript"
+    },
+    "module": {
+      "type": "string",
+      "enum": ["CommonJS", "AMD", "System", "UMD", "ES6", "ES2015", "ES2020", "ES2022", "ESNext", "Node16", "NodeNext", "None"],
+      "description": "Module system for emitted JavaScript"
+    },
+    "strict": {
+      "type": "boolean",
+      "description": "Enable all strict type-checking options"
+    },
+    "strictNullChecks": {
+      "type": "boolean",
+      "description": "Raise errors on expressions that may be null or undefined"
+    },
+    "noImplicitAny": {
+      "type": "boolean",
+      "description": "Raise error on expressions and declarations with an implied 'any' type"
+    },
+    "esModuleInterop": {
+      "type": "boolean",
+      "description": "Enables emit interoperability between CommonJS and ES modules"
+    },
+    "outDir": {
+      "type": "string",
+      "description": "Redirect output structure to the directory"
+    },
+    "rootDir": {
+      "type": "string",
+      "description": "Specify the root directory of input files"
+    },
+    "declaration": {
+      "type": "boolean",
+      "description": "Generates corresponding .d.ts file for each TypeScript file"
+    },
+    "declarationMap": {
+      "type": "boolean",
+      "description": "Generates a sourcemap for each corresponding .d.ts file"
+    },
+    "sourceMap": {
+      "type": "boolean",
+      "description": "Generates corresponding .map file for emitted JavaScript"
+    },
+    "lib": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "List of library files to be included in the compilation"
+    },
+    "paths": {
+      "type": "object",
+      "description": "Path mapping entries for module names to locations"
+    },
+    "baseUrl": {
+      "type": "string",
+      "description": "Base directory to resolve non-relative module names"
+    },
+    "experimentalDecorators": {
+      "type": "boolean",
+      "description": "Enables experimental support for decorators"
+    },
+    "emitDecoratorMetadata": {
+      "type": "boolean",
+      "description": "Enables experimental support for emitting type metadata for decorators"
+    },
+    "skipLibCheck": {
+      "type": "boolean",
+      "description": "Skip type checking of declaration files"
+    },
+    "resolveJsonModule": {
+      "type": "boolean",
+      "description": "Include modules imported with .json extension"
+    },
+    "jsx": {
+      "type": "string",
+      "enum": ["preserve", "react", "react-jsx", "react-jsxdev", "react-native"],
+      "description": "JSX code generation strategy"
+    }
+  }
+}

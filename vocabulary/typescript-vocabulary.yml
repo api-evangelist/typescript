@@ -1,0 +1,186 @@
+name: TypeScript
+description: >-
+  Vocabulary and taxonomy for TypeScript language concepts, compiler API terms,
+  and type system terminology used in the TypeScript developer ecosystem.
+created: "2026-05-03"
+modified: "2026-05-03"
+tags:
+  - TypeScript
+  - Programming Language
+  - Compiler
+  - Type System
+
+terms:
+
+  # Core Language Concepts
+  - term: Type Annotation
+    definition: >-
+      Explicit type declaration added to a variable, parameter, or return value
+      using the colon syntax (e.g., `let name: string`).
+    tags: [Type System, Syntax]
+
+  - term: Type Inference
+    definition: >-
+      TypeScript's ability to automatically determine the type of an expression
+      without an explicit annotation, based on the assigned value or usage.
+    tags: [Type System, Compiler]
+
+  - term: Interface
+    definition: >-
+      A structural type declaration that defines the shape of an object.
+      Interfaces can be extended and are erased at runtime.
+    tags: [Type System, Structural Typing]
+
+  - term: Type Alias
+    definition: >-
+      A named type defined with the `type` keyword. Unlike interfaces, type
+      aliases can define union types, intersection types, and primitive aliases.
+    tags: [Type System]
+
+  - term: Generic
+    definition: >-
+      A type parameter that allows functions, classes, and interfaces to be
+      written in a way that works with multiple types while maintaining
+      type safety (e.g., `Array<T>`).
+    tags: [Type System, Parameterization]
+
+  - term: Union Type
+    definition: >-
+      A type that can be one of several types, expressed with the `|` operator
+      (e.g., `string | number`).
+    tags: [Type System]
+
+  - term: Intersection Type
+    definition: >-
+      A type that combines multiple types into one using the `&` operator.
+      An intersection type has all the properties of all combined types.
+    tags: [Type System]
+
+  - term: Tuple
+    definition: >-
+      A fixed-length array where each element has a specific known type
+      (e.g., `[string, number]`).
+    tags: [Type System, Arrays]
+
+  - term: Enum
+    definition: >-
+      A set of named constant values. TypeScript supports numeric and string
+      enums.
+    tags: [Type System, Constants]
+
+  - term: Decorators
+    definition: >-
+      A special kind of declaration attached to a class, method, accessor,
+      property, or parameter using the `@` syntax. Used extensively in
+      Angular and NestJS.
+    tags: [Metaprogramming, Experimental]
+
+  # Compiler API
+  - term: AST
+    definition: >-
+      Abstract Syntax Tree. A tree representation of the source code's
+      syntactic structure. TypeScript's AST is the primary data structure
+      used by the Compiler API.
+    tags: [Compiler, Parser]
+
+  - term: Program
+    definition: >-
+      A TypeScript `ts.Program` object representing a collection of source
+      files and their resolved dependencies, created by the Compiler API.
+    tags: [Compiler API]
+
+  - term: SourceFile
+    definition: >-
+      A TypeScript `ts.SourceFile` AST node representing a single `.ts` or
+      `.tsx` source file.
+    tags: [Compiler API, AST]
+
+  - term: TypeChecker
+    definition: >-
+      The `ts.TypeChecker` object provides semantic analysis of a TypeScript
+      program: resolving symbols, getting type information, and checking types.
+    tags: [Compiler API, Semantic Analysis]
+
+  - term: Diagnostic
+    definition: >-
+      A compiler error, warning, or suggestion message produced during
+      compilation or type checking, containing message, category, and
+      location information.
+    tags: [Compiler API, Errors]
+
+  - term: Transformer
+    definition: >-
+      A function that receives AST nodes and returns modified nodes, used
+      to implement custom code transformations during compilation.
+    tags: [Compiler API, Transformation]
+
+  - term: Emit
+    definition: >-
+      The process of outputting compiled JavaScript (and optional declaration
+      files) from TypeScript source files.
+    tags: [Compiler, Output]
+
+  # Language Service
+  - term: Language Service
+    definition: >-
+      The `ts.LanguageService` interface provides IDE-level features such as
+      completions, diagnostics, definitions, references, and refactoring.
+    tags: [Language Service, IDE]
+
+  - term: Completion
+    definition: >-
+      An IDE feature that suggests possible completions (methods, properties,
+      keywords) as the developer types.
+    tags: [Language Service, IDE]
+
+  - term: Quick Fix
+    definition: >-
+      An automated code action that resolves a diagnostic error or warning
+      with a suggested code change.
+    tags: [Language Service, IDE]
+
+  # Configuration
+  - term: tsconfig.json
+    definition: >-
+      The configuration file for the TypeScript compiler. Specifies compiler
+      options, included files, and project references.
+    tags: [Configuration]
+
+  - term: Strict Mode
+    definition: >-
+      A set of TypeScript compiler flags (enabled via `strict: true`) that
+      enforce stronger type checking, including `strictNullChecks`,
+      `noImplicitAny`, and others.
+    tags: [Configuration, Type Safety]
+
+  - term: Declaration File
+    definition: >-
+      A `.d.ts` file that contains type declarations for JavaScript code,
+      allowing TypeScript to type-check usage of untyped libraries.
+    tags: [Type Definitions, Interoperability]
+
+  - term: DefinitelyTyped
+    definition: >-
+      The community repository at `@types/*` on npm containing type
+      declaration files for thousands of JavaScript packages.
+    tags: [Community, Type Definitions]
+
+  # Type Narrowing
+  - term: Type Guard
+    definition: >-
+      A runtime check that narrows the type of a variable within a
+      conditional block (e.g., `typeof`, `instanceof`, or custom
+      type predicate functions).
+    tags: [Type Narrowing, Runtime]
+
+  - term: Discriminated Union
+    definition: >-
+      A union type pattern where each member has a common literal type
+      property (discriminant) used for type narrowing.
+    tags: [Type System, Patterns]
+
+  - term: Type Assertion
+    definition: >-
+      Overriding TypeScript's inferred type using the `as` keyword or
+      angle bracket syntax (e.g., `value as string`).
+    tags: [Type System]

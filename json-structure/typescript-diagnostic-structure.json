@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TypeScript Diagnostic Structure",
+  "description": "Structural definition of a TypeScript compiler diagnostic",
+  "type": "object",
+  "properties": {
+    "file": {
+      "type": "object",
+      "description": "Source file reference"
+    },
+    "start": {
+      "type": "integer",
+      "description": "Character offset of diagnostic start"
+    },
+    "length": {
+      "type": "integer",
+      "description": "Diagnostic span length in characters"
+    },
+    "messageText": {
+      "description": "Diagnostic message (string or chained object)"
+    },
+    "category": {
+      "type": "integer",
+      "description": "0=Warning, 1=Error, 2=Suggestion, 3=Message"
+    },
+    "code": {
+      "type": "integer",
+      "description": "TypeScript error code number"
+    }
+  }
+}
