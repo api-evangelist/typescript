@@ -1,0 +1,13 @@
+{
+  "repo": "typescript",
+  "feeds": [
+    {
+      "source": "https://devblogs.microsoft.com/typescript/",
+      "feed_url": "https://devblogs.microsoft.com/typescript/feed/",
+      "saved": 10,
+      "title": "TypeScript"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:37:48Z"
+}
