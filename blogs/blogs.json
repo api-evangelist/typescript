@@ -4,10 +4,10 @@
     {
       "source": "https://devblogs.microsoft.com/typescript/",
       "feed_url": "https://devblogs.microsoft.com/typescript/feed/",
-      "saved": 10,
-      "title": "TypeScript"
+      "title": "TypeScript",
+      "saved": 0
     }
   ],
   "post_count": 10,
-  "fetched": "2026-05-03T23:37:48Z"
+  "fetched": "2026-05-09T20:17:51Z"
 }
