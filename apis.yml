@@ -11,7 +11,7 @@ image: https://www.typescriptlang.org/favicon-32x32.png
 url: >-
   https://raw.githubusercontent.com/api-evangelist/typescript/refs/heads/main/apis.yml
 created: '2024-01-01'
-modified: '2026-05-03'
+modified: '2026-05-19'
 specificationVersion: '0.19'
 tags:
   - Compiler
@@ -126,3 +126,6 @@ common:
     url: json-schema/typescript-compiler-options-schema.json
   - type: JSONStructure
     url: json-structure/typescript-diagnostic-structure.json
+  - name: Agent Skills
+    url: https://github.com/microsoft/TypeScript-Maintainer-Skills
+    type: AgentSkill
