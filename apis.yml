@@ -112,7 +112,7 @@ common:
     url: https://www.typescriptlang.org/docs/handbook/intro.html
   - type: ReleaseNotes
     url: https://www.typescriptlang.org/docs/handbook/release-notes/overview.html
-  - type: GitHub Issues
+  - type: GitHubIssues
     url: https://github.com/microsoft/TypeScript/issues
   - type: Twitter
     url: https://twitter.com/typescript
@@ -128,4 +128,4 @@ common:
     url: json-structure/typescript-diagnostic-structure.json
   - name: Agent Skills
     url: https://github.com/microsoft/TypeScript-Maintainer-Skills
-    type: AgentSkill
+    type: AgentSkills
