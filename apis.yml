@@ -94,6 +94,8 @@ maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
 common:
+  - type: DomainSecurity
+    url: security/typescript-domain-security.yml
   - type: Website
     url: https://www.typescriptlang.org
   - type: Documentation
