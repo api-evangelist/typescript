@@ -7,6 +7,18 @@ description: >-
   large-scale web applications, Node.js services, and developer tooling. The
   TypeScript Compiler API and Language Service API enable programmatic compilation,
   type checking, code transformation, and IDE integrations.
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
 image: https://www.typescriptlang.org/favicon-32x32.png
 url: >-
   https://raw.githubusercontent.com/api-evangelist/typescript/refs/heads/main/apis.yml
