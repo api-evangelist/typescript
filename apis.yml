@@ -106,6 +106,9 @@ maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
 common:
+  - type: License
+    name: Apache-2.0
+    url: https://github.com/microsoft/TypeScript/blob/main/LICENSE
   - type: DomainSecurity
     url: security/typescript-domain-security.yml
   - type: Website
