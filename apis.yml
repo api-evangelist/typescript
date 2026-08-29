@@ -7,6 +7,18 @@ description: >-
   large-scale web applications, Node.js services, and developer tooling. The
   TypeScript Compiler API and Language Service API enable programmatic compilation,
   type checking, code transformation, and IDE integrations.
+deliveryModel:
+  model: self-hosted
+  license: Apache-2.0
+  open_source: true
+  commercial: false
+  callable_host: false
+  label: Self-hosted open source · you run it yourself
+  confidence: high
+  source:
+  - license
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
@@ -106,6 +118,14 @@ maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
 common:
+  - type: Releases
+    url: https://github.com/microsoft/TypeScript/releases
+  - type: SecurityPolicy
+    url: https://github.com/microsoft/TypeScript/blob/main/SECURITY.md
+  - type: CodeOfConduct
+    url: https://github.com/microsoft/TypeScript/blob/main/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/microsoft/TypeScript/blob/main/CONTRIBUTING.md
   - type: License
     name: Apache-2.0
     url: https://github.com/microsoft/TypeScript/blob/main/LICENSE
