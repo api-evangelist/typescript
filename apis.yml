@@ -1,5 +1,6 @@
 aid: typescript
 name: TypeScript
+x-parent: microsoft
 description: >-
   TypeScript is a strongly typed programming language that builds on JavaScript,
   adding optional static type checking and other features. Developed and maintained
@@ -32,8 +33,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://www.typescriptlang.org/favicon-32x32.png
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/typescript/refs/heads/main/apis.yml
+url: https://www.typescriptlang.org
 created: '2024-01-01'
 modified: '2026-05-19'
 specificationVersion: '0.23'
@@ -118,6 +118,18 @@ maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/typescript
+  - type: Portal
+    url: https://www.typescriptlang.org/
+  - type: GettingStarted
+    url: https://www.typescriptlang.org/docs/handbook/intro.html
+  - type: TermsOfService
+    url: https://www.microsoft.com/en-us/legal/terms-of-use
+  - type: PrivacyPolicy
+    url: https://privacy.microsoft.com/en-us/privacystatement
+  - type: Support
+    url: https://github.com/microsoft/TypeScript/issues
   - type: Releases
     url: https://github.com/microsoft/TypeScript/releases
   - type: SecurityPolicy
