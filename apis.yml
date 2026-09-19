@@ -38,6 +38,13 @@ created: '2024-01-01'
 modified: '2026-05-19'
 specificationVersion: '0.23'
 tags:
+  - Compilers
+  - JavaScript
+  - Language Service
+  - Programming Language
+  - Static Typing
+  - Web Development
+tags_raw:
   - Compiler
   - JavaScript
   - Language Service
@@ -56,6 +63,12 @@ apis:
     humanURL: https://www.typescriptlang.org/docs/handbook/compiler-options.html
     baseURL: https://www.typescriptlang.org
     tags:
+      - Compilers
+      - Transpilation
+      - Type Checking
+      - AST
+      - Code Generation
+    tags_raw:
       - Compiler
       - Transpilation
       - Type Checking
