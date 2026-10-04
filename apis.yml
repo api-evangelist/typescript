@@ -61,7 +61,6 @@ apis:
       emit JavaScript, and transform code programmatically.
     image: https://www.typescriptlang.org/favicon-32x32.png
     humanURL: https://www.typescriptlang.org/docs/handbook/compiler-options.html
-    baseURL: https://www.typescriptlang.org
     tags:
       - Compilers
       - Transpilation
@@ -94,7 +93,6 @@ apis:
       find references, and other IDE features that power editors like VS Code.
     image: https://www.typescriptlang.org/favicon-32x32.png
     humanURL: https://www.typescriptlang.org
-    baseURL: https://www.typescriptlang.org
     tags:
       - Autocomplete
       - Diagnostics
@@ -115,7 +113,6 @@ apis:
       TypeScript AST before code emission.
     image: https://www.typescriptlang.org/favicon-32x32.png
     humanURL: https://www.typescriptlang.org/docs/handbook/2/types-from-types.html
-    baseURL: https://www.typescriptlang.org
     tags:
       - AST
       - Code Transformation
